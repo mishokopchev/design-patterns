@@ -20,7 +20,4 @@ public class Main {
     }
 
 
-    public static List<Employee> getAllEmployees(){
-
-    }
 }
