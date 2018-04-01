@@ -25,6 +25,7 @@ public class Main {
         Printer printer = new MoviePrinter();
         printer.print(movieFormatter);
 
+
     }
 
 }
