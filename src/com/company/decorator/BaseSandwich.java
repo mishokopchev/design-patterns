@@ -15,7 +15,6 @@ public class BaseSandwich implements Sandwich {
 
     @Override
     public String make() {
-        System.out.println(sandwich.toString());
         return sandwich.make();
 
     }

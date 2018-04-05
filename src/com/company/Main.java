@@ -13,7 +13,21 @@ public class Main {
 
     }
 
-     // 1 1 1 2 2 2  3 3 3
+    // 1 1 1 2 2 2  3 3 3 4 7 7 10 12 14
+
+    public static int[] shrink(int[] array) {
+        int[] shrinked = new int[array.length];
+        int i = 0;
+        shrinked[i] = array[i];
+        for (int index = 1; index < array.length; index++) {
+            if (array[index] != shrinked[i]) {
+                ++i;
+                shrinked[i] = array[index];
+            }
+        }
+        ArrayList list;
+        return shrinked;
+    }
 
     public static int partition(int[] array, int low, int high) {
 
@@ -34,18 +48,25 @@ public class Main {
 
     }
 
-    public static void swap(int[] array, int index, int index1){
+    public static void swap(int[] array, int index, int index1) {
 
     }
 
 
     public static void main(String[] args) {
-//
+//RRRR
+
+//        String a = "misho";
+//        String a1 = new String("misho").intern();
+//        System.out.println(a == a1);
 
 
-        int[] array = {1, 23, 4, 5, 2, 2, 2, 1, 3, 4};
-        quickSort(array, 0, array.length - 1);
-        System.out.println(Arrays.toString(array));
+        int[] array = {1,1,1,1,2,2,2,3,3,3,4,5,6,7,8};
+        System.out.println(Arrays.toString(shrink(array)));
+
+//        int[] array = {1, 23, 4, 5, 2, 2, 2, 1, 3, 4};
+//        quickSort(array, 0, array.length - 1);
+        //System.out.println(Arrays.toString(array));
 
 
 //        String b = "dsadsa";
@@ -74,12 +95,12 @@ public class Main {
 //
 //        Runnable runnable1 = () -> System.out.println(start);
 
-
-        Model model = new Model("aaaa", 1);
-        Model model1 = new Model("bbbb", 1);
-
-        HashSet<String> strings = new HashSet<>();
-        strings.add("putkite");
+//
+//        Model model = new Model("aaaa", 1);
+//        Model model1 = new Model("bbbb", 1);
+//
+//        HashSet<String> strings = new HashSet<>();
+//        strings.add("putkite");
 //
 //        HashSet<Model> hashSet = new HashSet<>();
 //        hashSet.add(model);

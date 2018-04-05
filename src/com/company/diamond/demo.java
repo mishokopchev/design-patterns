@@ -60,8 +60,9 @@ public class demo {
         //OutputStream outputStream = new FileOutputStream(null);
 //        DataOutputStream dataOutputStream = new DataOutputStream(outputStream);
 
-        Sandwich sandwich = new MeatSandwich(new BaseSandwich(new SimpleSandwich()));
-        sandwich.make();
+//        Sandwich sandwich = new MeatSandwich(new BaseSandwich(new SimpleSandwich()));
+  //      System.out.println(sandwich.make());
+        System.out.println(make());
 
     }
 
@@ -70,7 +71,7 @@ public class demo {
         builder.append("putka");
 
         try {
-            return builder.append("be").toString();
+            return builder.toString();
         } finally {
             builder = null;
         }
