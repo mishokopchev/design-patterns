@@ -5,7 +5,7 @@ package com.company.factory;
  */
 public class ShopWebsite extends Website {
 
-    Object;
+
     @Override
     public void createWebsite() {
         pages.add(new PostPage());

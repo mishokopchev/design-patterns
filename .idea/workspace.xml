@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18a0de3b-ea29-4550-85fd-13122dc2b15e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/adapter/interfaces/One.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/adapter/interfaces/OneTwo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/adapter/interfaces/Two.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/factory/BlogWebsite.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/factory/CarPage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/factory/Page.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/factory/PostPage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/factory/ShopWebsite.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/factory/Website.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/factory/WebsiteFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/factory/demo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/responsiblechain/BaseHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/responsiblechain/CeoHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/responsiblechain/DirectorHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/responsiblechain/Handler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/responsiblechain/Request.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/factory/ShopWebsite.java" afterPath="$PROJECT_DIR$/src/com/company/factory/ShopWebsite.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -71,7 +55,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseHandler.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BaseHandler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/responsiblechain/BaseHandler.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
@@ -131,14 +115,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShopWebsite.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ShopWebsite.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/factory/ShopWebsite.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+              <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
               <folding>
-                <element signature="e#179#180#0" expanded="true" />
-                <element signature="e#220#221#0" expanded="true" />
+                <element signature="e#172#173#0" expanded="true" />
+                <element signature="e#213#214#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -237,12 +221,12 @@
         <option value="$PROJECT_DIR$/src/com/company/factory/Shop.java" />
         <option value="$PROJECT_DIR$/src/com/company/factory/demo.java" />
         <option value="$PROJECT_DIR$/src/com/company/factory/WebsiteFactory.java" />
-        <option value="$PROJECT_DIR$/src/com/company/factory/ShopWebsite.java" />
         <option value="$PROJECT_DIR$/src/com/company/responsiblechain/Request.java" />
         <option value="$PROJECT_DIR$/src/com/company/responsiblechain/Handler.java" />
         <option value="$PROJECT_DIR$/src/com/company/responsiblechain/DirectorHandler.java" />
         <option value="$PROJECT_DIR$/src/com/company/responsiblechain/CeoHandler.java" />
         <option value="$PROJECT_DIR$/src/com/company/responsiblechain/BaseHandler.java" />
+        <option value="$PROJECT_DIR$/src/com/company/factory/ShopWebsite.java" />
       </list>
     </option>
   </component>
@@ -326,6 +310,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="responsiblechain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="designPatterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="designPatterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="company" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="factory" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -851,12 +857,12 @@
       <workItem from="1522650238916" duration="1990000" />
       <workItem from="1522789070798" duration="11191000" />
       <workItem from="1522935943952" duration="1921000" />
-      <workItem from="1522994798184" duration="3809000" />
+      <workItem from="1522994798184" duration="3862000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46938000" />
+    <option name="totallyTimeSpent" value="46991000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -872,10 +878,10 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968536" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32409638" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32409638" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32650602" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32650602" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24892704" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1270,17 +1276,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/factory/ShopWebsite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-          <folding>
-            <element signature="e#179#180#0" expanded="true" />
-            <element signature="e#220#221#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
@@ -1329,6 +1324,17 @@
         <state relative-caret-position="135">
           <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/factory/ShopWebsite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <folding>
+            <element signature="e#172#173#0" expanded="true" />
+            <element signature="e#213#214#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
